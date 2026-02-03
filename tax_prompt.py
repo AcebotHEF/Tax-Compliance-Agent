@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 tax_template = PromptTemplate.from_template("""
 You are a tax compliance auditor AI.
